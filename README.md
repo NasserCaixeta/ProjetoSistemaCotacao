@@ -1,27 +1,30 @@
-Sistema de Cotação de Moedas
+#Sistema de Cotação de Moedas
 Este é um sistema simples de cotação de moedas desenvolvido em Python, utilizando a biblioteca Tkinter para a interface gráfica e a biblioteca Requests para realizar requisições à API AwesomeAPI.
 
-Funcionalidades
-1. Cotação de 1 Moeda Específica
+##Funcionalidades
+**1. Cotação de 1 Moeda Específica**
 Seleção da Moeda: Escolha a moeda desejada a partir de uma lista de moedas disponíveis.
 Seleção da Data: Utilize um calendário para escolher a data da cotação.
 Obtenção da Cotação: Clique no botão "Pegar Cotação" para visualizar a cotação da moeda na data selecionada.
-2. Cotação de Múltiplas Moedas
+
+**2. Cotação de Múltiplas Moedas**
 Seleção de Arquivo Excel: Selecione um arquivo Excel contendo as moedas na coluna A.
 Seleção de Período: Escolha a data inicial e a data final para obter as cotações.
 Atualização das Cotações: Clique no botão "Atualizar Cotações" para obter as cotações das moedas no período selecionado.
-Requisitos
+
+##Requisitos
+
 Python 3.x
 Bibliotecas: Tkinter, tkcalendar, pandas, requests, numpy
 Instalação
 Clone o repositório:
-bash
-Copy code
+
+git bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 Instale as dependências:
 bash
-Copy code
+
 pip install -r requirements.txt
 Uso
 Execute o script principal:
